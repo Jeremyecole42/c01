@@ -1,18 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jbarbeza <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/13 15:50:16 by jbarbeza          #+#    #+#             */
-/*   Updated: 2021/07/14 16:13:26 by jbarbeza         ###   ########.fr       */
+/*   Created: 2021/07/14 11:57:03 by jbarbeza          #+#    #+#             */
+/*   Updated: 2021/07/14 16:24:25 by jbarbeza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_ultimate_ft(int *********nbr)
+void	ft_div_mod(int	a, int	b, int	*div, int	*mod)
+
 {
-	*********nbr = 42;
+	*div = a / b;
+	*mod = a & b;
 }
